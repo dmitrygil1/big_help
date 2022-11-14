@@ -753,11 +753,11 @@ img{
     .nav__menu{
         align-items:flex-end;
         flex-flow:column nowrap;
-        justify-content:space-around
-    }
+        justify-content:space-around;
+        }
 }
 .nav__menu__option{
-    margin:0 .78125rem
+    margin:0 .78125rem;
 }
 @media screen and (max-width:1130px){
     .nav__menu__option{
@@ -1285,7 +1285,7 @@ img{
         position:absolute;
         right:0;
         text-align:center;
-        top:7.7rem;
+        top:5.5rem;
         z-index:10
     }
 
@@ -1779,7 +1779,7 @@ img{
 .donation{
     background:linear-gradient(111.56deg,#2c5e5b 18.82%,#415c7a 64.16%);
     color:#fff;
-    padding-top:6.25rem
+    padding-top:4.25rem
 }
 @media screen and (max-width:1130px){
     .donation{
@@ -2276,7 +2276,7 @@ img{
 .reports{
     background-color:#fff;
     padding-bottom:1.875rem;
-    padding-top:6.25rem
+    padding-top:4.25rem
 }
 
 .reports .report__image{
@@ -2448,5 +2448,50 @@ img{
     .reports .report__text p{
         font-size:1.125rem;
         line-height:1.1666666667
+    }
+}
+@media screen and (max-width:490px){
+    .main__container-content__title {
+        font-size: 30px;
+    }
+    .reports__title {
+        margin-bottom: 0rem;
+    }
+    .application__title {
+        font-size: 30px;
+        margin-bottom: 1.4rem;
+    }
+    .application__form-label{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .application__form-group{
+        grid-row-gap: 0rem;
+    }
+    .application__form-row {
+        grid-row-gap: 0rem;
+    }
+    #license__mobile {
+        margin-top: 1.0625rem;
+    }
+    .contacts__title {
+        font-size: 2rem;
+    }
+    .about__wrapper {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    #donation{
+        padding-top: 3rem;
+    }
+    .reports {
+        padding-top: 2.7rem
+    }
+    .members {
+        margin-top: 2.7rem;
+    }
+    .donation-cards_slider__item {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
